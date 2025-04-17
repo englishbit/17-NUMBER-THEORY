@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main(){
+
+        //logic for variable declaration
+        int seed=42;
+        int a=1664525;
+        int c=1013904223;
+        long long m=4294967296;
+
+        int n,min_rng,max_rng,finl_rnd_num;
+        long long rand_num;
+        
+        
+        //logic for taking input
+        scanf("%d",&n);
+        scanf("%d",&min_rng);
+        scanf("%d",&max_rng);
+
+
+        //logic for calculate random number
+        for(int i=0;i<n;i++){
+           
+            rand_num=(a*seed+c)%m;
+            finl_rnd_num=min_rng+(rand_num%(max_rng-min_rng+1));
+
+            printf("%d ",finl_rnd_num);
+            seed=rand_num;
+
+        }
+
+
+
+
+
+    return 0;
+}
