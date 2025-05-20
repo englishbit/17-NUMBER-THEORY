@@ -17,17 +17,5 @@ int main(){
     printf("%d",rvrs_num);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
