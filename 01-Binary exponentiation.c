@@ -5,7 +5,7 @@ int main(){
     long long expo;
     long long result=1;
 
-    //logic for input taking;
+    //logic for taking input;
     scanf("%lld %lld",&base,&expo);
     if(expo==0){
         printf("%lld\n",1);
@@ -36,4 +36,5 @@ int main(){
 
 
     return 0;
+
 }
