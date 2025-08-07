@@ -18,7 +18,7 @@ int main(){
 
 
 
-    //logic for binary finding power
+    //logic for finding power
     while(expo){
         if(expo%2==1){
             result*=base;
@@ -38,3 +38,4 @@ int main(){
     return 0;
 
 }
+
